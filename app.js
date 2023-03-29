@@ -12,8 +12,8 @@ hbs.registerPartials(__dirname + '/views/partials');
 
 
 
-// servir contenido estatico 
-app.use( express.static('public'));
+// servir contenido estatico 123
+app.use( express.static('public')); 
 
 // app.get('/',  (req, res) => {
 //   res.send('Home page')
